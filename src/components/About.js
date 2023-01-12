@@ -1,14 +1,19 @@
 import Carousel from 'react-bootstrap/Carousel';
 import pic2 from '../assets/pic2.jpg'
+import law from '../assets/law.png'
+import pic10 from '../assets/pic10.jpg'
 
 function DarkVariantExample() {
   return (
+
+    
     <Carousel variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={pic2}
           alt="First slide"
+          style={{height: "70vh", width: "auto"}}
         />
         <Carousel.Caption>
           <h5>First slide label</h5>
@@ -18,8 +23,9 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          src={law}
           alt="Second slide"
+          style={{height: "60vh", width: "auto"}}
         />
         <Carousel.Caption>
           <h5>Second slide label</h5>
@@ -29,8 +35,9 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src={pic10}
           alt="Third slide"
+          style={{height: "70vh", width: "auto"}}
         />
         <Carousel.Caption>
           <h5>Third slide label</h5>
