@@ -7,15 +7,15 @@ function    Navb () {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" >
       <Container style={{fontWeight: "bolder"}} >
-        <Navbar.Brand href="#home">Lawsavic Investment Limited.</Navbar.Brand>
+        <Navbar.Brand href="#home">Lawsavic <br/> Investments </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link href="#features">About US</Nav.Link>
+            <Nav.Link href="#deets">Vacants</Nav.Link>
             
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+            <NavDropdown title="Contact Us" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
           
       
@@ -32,6 +32,7 @@ function    Navb () {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   );
 }
 

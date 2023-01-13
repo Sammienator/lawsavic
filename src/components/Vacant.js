@@ -2,26 +2,35 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import pic5 from '../assets/pic5.jpeg'
-import pic13 from '../assets/pic13.jpeg'
+import pic8 from '../assets/pic8.jpg'
+import Container from 'react-bootstrap/esm/Container';
+
 
 function BasicExample() {
   return (
 
 
+<>
 
-    <Row> 
+<Container className='p-3'>
 
-<Col sm={6}  >
+<Row> 
+
+
+
+
+
+
+        <Col className='p-3' >
 <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={pic13} />
+      <Card.Img variant="top" src={pic8} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Asking price 45,000,000/=</Button>
+        <Button variant="primary">Asking price: 16,500,000/=</Button>
       </Card.Body>
     </Card>
 
@@ -33,11 +42,30 @@ function BasicExample() {
         </Col>
 
 
-
-
-        <Col sm={6}  >
+        <Col >
 <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={pic5} />
+      <Card.Img variant="top" src={pic8} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Asking price: 16,500,000/=</Button>
+      </Card.Body>
+    </Card>
+
+
+    
+        
+    
+        
+        </Col>
+
+
+        <Col >
+<Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={pic8} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -58,6 +86,173 @@ function BasicExample() {
 
 
     </Row>
+
+
+    <Row> 
+
+
+
+
+
+
+<Col className='p-3' >
+<Card style={{ width: '18rem' }}>
+<Card.Img variant="top" src={pic8} />
+<Card.Body>
+<Card.Title>Card Title</Card.Title>
+<Card.Text>
+  Some quick example text to build on the card title and make up the
+  bulk of the card's content.
+</Card.Text>
+<Button variant="primary">Asking price: 16,500,000/=</Button>
+</Card.Body>
+</Card>
+
+
+
+
+
+
+</Col>
+
+
+<Col >
+<Card style={{ width: '18rem' }}>
+<Card.Img variant="top" src={pic8} />
+<Card.Body>
+<Card.Title>Card Title</Card.Title>
+<Card.Text>
+  Some quick example text to build on the card title and make up the
+  bulk of the card's content.
+</Card.Text>
+<Button variant="primary">Asking price: 16,500,000/=</Button>
+</Card.Body>
+</Card>
+
+
+
+
+
+
+</Col>
+
+
+<Col >
+<Card style={{ width: '18rem' }}>
+<Card.Img variant="top" src={pic8} />
+<Card.Body>
+<Card.Title>Card Title</Card.Title>
+<Card.Text>
+  Some quick example text to build on the card title and make up the
+  bulk of the card's content.
+</Card.Text>
+<Button variant="primary">Asking price: 16,500,000/=</Button>
+</Card.Body>
+</Card>
+
+
+
+
+
+
+</Col>
+
+
+
+</Row>
+
+
+<Row> 
+
+
+
+
+
+
+        <Col className='p-3' >
+<Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={pic8} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Asking price: 16,500,000/=</Button>
+      </Card.Body>
+    </Card>
+
+
+    
+        
+    
+        
+        </Col>
+
+
+        <Col >
+<Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={pic8} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Asking price: 16,500,000/=</Button>
+      </Card.Body>
+    </Card>
+
+
+    
+        
+    
+        
+        </Col>
+
+
+        <Col >
+<Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={pic8} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Asking price: 16,500,000/=</Button>
+      </Card.Body>
+    </Card>
+
+
+    
+        
+    
+        
+        </Col>
+
+
+
+    </Row>
+
+  
+</Container>
+
+
+
+
+</>
+    
+
+
+
+
+
+
+
+
+
+
     
   );
 }

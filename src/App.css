@@ -10,3 +10,7 @@ body{
   height: 50vh;
 
 }
+.head{
+  align-items: center;
+  color: black;
+}

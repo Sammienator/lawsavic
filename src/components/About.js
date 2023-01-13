@@ -2,22 +2,31 @@ import Carousel from 'react-bootstrap/Carousel';
 import pic2 from '../assets/pic2.jpg'
 import law from '../assets/law.png'
 import pic10 from '../assets/pic10.jpg'
+import pic6 from '../assets/pic6.jpeg'
+import pic12 from '../assets/pic12.jpg'
+import pic3 from '../assets/pic3.jpg'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
+
 
 function DarkVariantExample() {
   return (
 
-    
-    <Carousel variant="dark">
+    <> 
+
+<Carousel variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={pic2}
           alt="First slide"
-          style={{height: "70vh", width: "auto"}}
+          style={{height: "70vh"}}
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p>Welcome home! The home of quality!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -25,10 +34,10 @@ function DarkVariantExample() {
           className="d-block w-100"
           src={law}
           alt="Second slide"
-          style={{height: "60vh", width: "auto"}}
+          style={{height: "70vh"}}
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -37,16 +46,105 @@ function DarkVariantExample() {
           className="d-block w-100"
           src={pic10}
           alt="Third slide"
-          style={{height: "70vh", width: "auto"}}
+          style={{height: "70vh"}}
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic6}
+          alt="Third slide"
+          style={{height: "70vh"}}
+        />
+        <Carousel.Caption>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic12}
+          alt="Third slide"
+          style={{height: "70vh"}}
+        />
+        <Carousel.Caption>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={pic3}
+          alt="Third slide"
+          style={{height: "70vh"}}
+        />
+        <Carousel.Caption>
+          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+
+
+
+
+
+
+<Row> 
+
+<div>
+      <h1>
+        Allow us to introduce ourself
+      </h1>
+      <p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+    </div>
+
+</Row>
+
+
+<Row>
+
+<Col className='col'>
+<p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+
+</Col>
+
+
+
+<Col className='col'>
+<p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+
+  
+</Col>
+
+
+</Row>
+    
+    
+    </>
+    
+    
+
+
+    
   );
 }
 
