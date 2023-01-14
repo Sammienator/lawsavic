@@ -36,7 +36,7 @@ function Contact () {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicMessage">
-        <Form.Label>Peronal Message</Form.Label>
+        <Form.Label>Personal Message</Form.Label>
         <Form.Control as="textarea" type='Message' name='message' placeholder='Write Your Message Here....' rows={3} />
       </Form.Group>
 

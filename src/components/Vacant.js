@@ -12,7 +12,14 @@ function BasicExample() {
 
 <>
 
-<Container className='p-3'>
+<Container>
+
+
+
+  <Row>
+    <h1> Find our open listings below </h1>
+    <p> Feel free to contact us for more quality options tailored to your expectations .</p>
+  </Row>
 
 <Row> 
 
@@ -42,7 +49,7 @@ function BasicExample() {
         </Col>
 
 
-        <Col >
+        <Col className='p-3' >
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
@@ -63,7 +70,7 @@ function BasicExample() {
         </Col>
 
 
-        <Col >
+        <Col  className='p-3'>
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
@@ -116,7 +123,7 @@ function BasicExample() {
 </Col>
 
 
-<Col >
+<Col className='p-3' >
 <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={pic8} />
 <Card.Body>
@@ -137,7 +144,7 @@ function BasicExample() {
 </Col>
 
 
-<Col >
+<Col className='p-3' >
 <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={pic8} />
 <Card.Body>
@@ -190,7 +197,7 @@ function BasicExample() {
         </Col>
 
 
-        <Col >
+        <Col className='p-3' >
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
@@ -211,7 +218,7 @@ function BasicExample() {
         </Col>
 
 
-        <Col >
+        <Col className='p-3' >
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
