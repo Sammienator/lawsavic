@@ -38,7 +38,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
           <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Be all you can be, Be Home!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -51,7 +51,7 @@ function DarkVariantExample() {
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
           <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Home is the starting place of love, hope and dreams!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -66,7 +66,7 @@ function DarkVariantExample() {
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
           <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          There is no place like home!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -81,7 +81,7 @@ function DarkVariantExample() {
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
           <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Ensuring you have your dream home, Your Way!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -96,7 +96,7 @@ function DarkVariantExample() {
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
           <h5>LAWSAVIC INVESTMENT LIMITED</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Money cant buy you happiness, let it buy you a Home!
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -110,11 +110,11 @@ function DarkVariantExample() {
 
 <Row> 
 
-<div>
+<div >
       <h1>
         Allow us to introduce ourself
       </h1>
-      <p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+      <p > No matter who you are or where you are, instinct tells you to go home! </p>
     </div>
 
 </Row>

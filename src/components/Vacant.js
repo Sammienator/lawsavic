@@ -32,12 +32,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2>5 BedroomMansionette all Ensuite. </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Located in the serene suburbs of Kitengela, 37 Kms from the capital city
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"> <p> Asking price: 49,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -53,12 +52,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2> 2 Bedroom Bungalow with Dsq. </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"><p> Asking price: 9,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -74,12 +72,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2> Bedsitter Rental Apartment Complex </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"><p> Asking price: 30,000,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -94,7 +91,6 @@ function BasicExample() {
 
     </Row>
 
-
     <Row> 
 
 
@@ -106,12 +102,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={pic8} />
 <Card.Body>
-<Card.Title>Card Title</Card.Title>
+<Card.Title> <h2>5 BedroomMansionette all Ensuite.  </h2></Card.Title>
 <Card.Text>
-  Some quick example text to build on the card title and make up the
-  bulk of the card's content.
+  Located in the serene suburbs of Kitengela, 37 Kms from the capital city
 </Card.Text>
-<Button variant="primary">Asking price: 16,500,000/=</Button>
+<Button variant="primary"> <p> Asking price: 49,500,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -127,12 +122,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={pic8} />
 <Card.Body>
-<Card.Title>Card Title</Card.Title>
+<Card.Title> <h2>2 Bedroom Bungalow with Dsq.  </h2></Card.Title>
 <Card.Text>
-  Some quick example text to build on the card title and make up the
-  bulk of the card's content.
+ Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
 </Card.Text>
-<Button variant="primary">Asking price: 16,500,000/=</Button>
+<Button variant="primary"><p> Asking price: 9,500,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -144,16 +138,15 @@ function BasicExample() {
 </Col>
 
 
-<Col className='p-3' >
+<Col  className='p-3'>
 <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={pic8} />
 <Card.Body>
-<Card.Title>Card Title</Card.Title>
+<Card.Title> <h2>Bedsitter Rental Apartment Complex.  </h2></Card.Title>
 <Card.Text>
-  Some quick example text to build on the card title and make up the
-  bulk of the card's content.
+ Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
 </Card.Text>
-<Button variant="primary">Asking price: 16,500,000/=</Button>
+<Button variant="primary"><p> Asking price: 30,000,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -180,12 +173,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2>5 BedroomMansionette all Ensuite.  </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Located in the serene suburbs of Kitengela, 37 Kms from the capital city
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"> <p> Asking price: 49,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -201,12 +193,11 @@ function BasicExample() {
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2>2 Bedroom Bungalow with Dsq.  </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"><p> Asking price: 9,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -218,16 +209,15 @@ function BasicExample() {
         </Col>
 
 
-        <Col className='p-3' >
-<Card style={{ width: '18rem' }}>
+        <Col  className='p-3'>
+<Card style={{ width: '18rem'  }}>
       <Card.Img variant="top" src={pic8} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title> <h2> Bedsitter Rental Apartment Complex  </h2></Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
         </Card.Text>
-        <Button variant="primary">Asking price: 16,500,000/=</Button>
+        <Button variant="primary"><p> Asking price: 30,000,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -241,7 +231,6 @@ function BasicExample() {
 
 
     </Row>
-
   
 </Container>
 

@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function    Navb () {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" >
-      <Container style={{fontWeight: "bolder"}} >
+      <Container style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }} >
         <Navbar.Brand href="#home">Lawsavic <br/> Investments </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
