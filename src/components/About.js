@@ -7,6 +7,7 @@ import pic12 from '../assets/pic12.jpg'
 import pic4 from '../assets/pic4.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 
 
@@ -120,11 +121,12 @@ function DarkVariantExample() {
 </Row>
 
 
+<Container>
 <Row>
 
 <Col className='col'>
   <h1> Who Are We?</h1>
-<p> Lawsavic Investments Limited is a locally recognised leading independent real estate Company and the countys most fastest growing real estate company,Offering a full spectrum of property services.we fulfill a wide range of real estate needs, including: property management, agency, valuation, project management as well as General, feasibility and research-led consultancy.  </p>
+<p> Lawsavic Investments Limited is a locally recognised, leading and independent, real estate Company, It is also the countys  fastest growing real estate company. We Offer a full spectrum of property services.We also fulfill a wide range of real estate needs, including: property management, agency, valuation, project management as well as General, feasibility and research-led consultancy.  </p>
 
 
 
@@ -142,6 +144,9 @@ function DarkVariantExample() {
 
 
 </Row>
+
+</Container>
+
     
     
     </>

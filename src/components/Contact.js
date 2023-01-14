@@ -9,7 +9,7 @@ function Contact () {
     
      <Container >    
 
-     <h1 className='heading' style={{fontWeight: "bolder" , fontSize: "40px", marginTop: "100px", textAlign: "center"}}> Reach out to me below for a quote, questions or clarifications.</h1>
+     <h1 className='heading' style={{fontWeight: "bolder" , fontSize: "40px", marginTop: "100px", textAlign: "center"}}> Reach out to Us below for a Quote, Questions or Clarifications.</h1>
 
     <Form action="https://formspree.io/f/xnqyqlyb" method="POST" >
 
@@ -42,7 +42,7 @@ function Contact () {
 
 
       
-      <Button variant="primary" type="submit">
+      <Button variant='transparent' type="submit" style={{backgroundColor:"aqua"}}>
         Submit
       </Button>
     </Form>

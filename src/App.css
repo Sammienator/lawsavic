@@ -19,7 +19,13 @@ body{
   color: black;
 }
 
- h1, p , Button , Nav , h5 , h2 {
+ h1, p , Button , Nav , h5 , h2 ,form , #footer {
   font-family: 'Aladin', cursive;
   
+}
+Button{
+  color: aqua;
+}
+h1, h2 {
+  text-decoration: underline;
 }
