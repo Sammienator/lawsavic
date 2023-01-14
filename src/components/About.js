@@ -1,10 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
-import pic1 from '../assets/pic1.jpg'
+import pic222 from '../assets/pic222.jpg'
 import law from '../assets/law.png'
 import pic10 from '../assets/pic10.jpg'
 import pic6 from '../assets/pic6.jpeg'
 import pic12 from '../assets/pic12.jpg'
-import pic444 from '../assets/pic444.jpg'
+import pic4 from '../assets/pic4.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -20,7 +20,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic1}
+          src={pic222}
           alt="First slide"
           style={{height: "70vh"}}
         />
@@ -89,7 +89,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic444}
+          src={pic4}
           alt="Third slide"
           style={{height: "70vh"}}
         />
@@ -110,9 +110,9 @@ function DarkVariantExample() {
 
 <Row> 
 
-<div >
+<div style={{ textAlign: "center"}}>
       <h1>
-        Allow us to introduce ourself
+        ALLOW US TO INTRODUCE OURSELVES...
       </h1>
       <p > No matter who you are or where you are, instinct tells you to go home! </p>
     </div>
@@ -123,16 +123,19 @@ function DarkVariantExample() {
 <Row>
 
 <Col className='col'>
-  <h1> LOREM IPSUM SHEY YOU GO TELL ME</h1>
-<p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+  <h1> Who Are We?</h1>
+<p> Lawsavic Investments Limited is a locally recognised leading independent real estate Company and the countys most fastest growing real estate company,Offering a full spectrum of property services.we fulfill a wide range of real estate needs, including: property management, agency, valuation, project management as well as General, feasibility and research-led consultancy.  </p>
+
+
 
 </Col>
 
 
 
 <Col className='col'>
-<h1> LOREM IPSUM SHEY YOU GO TELL ME</h1>
-<p> Lorem ipsum"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+<h1> What Exactly Do We Do?</h1>
+<p> We mostly have partnered with local property managers, agents and landlords in various neighborhoods to ensure vacancies are verified before being listed.Get motivated for your next home search with the assuarance that what is advertised is exactly what is on offer.  </p>
+<p> We help you avoid treacherous deals by confirming and approving all the listings in this website. Our real time listings provide you with properties that are are actually available when you need them. Lawsavic Investments Limited is available anywhere, anytime and on any device.  </p>
 
   
 </Col>

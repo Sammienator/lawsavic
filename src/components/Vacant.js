@@ -18,7 +18,7 @@ function BasicExample() {
 
   <Row>
     <h1> Find our open listings below </h1>
-    <p> Feel free to contact us for more quality options tailored to your expectations .</p>
+    <p> Are you looking for the perfect property to rent in Nairobi and its environs? Whether it is an apartment for short term or a long term mansionette, Lawsavic Investment Limited offers a diversity of options to suit your every need.</p>
   </Row>
 
 <Row> 
