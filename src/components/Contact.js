@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 function Contact () {
   return (
 
-   <div id='contactt'> 
+   <div id='contact'> 
     
      <Container >    
 

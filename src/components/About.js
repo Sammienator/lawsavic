@@ -17,7 +17,7 @@ function DarkVariantExample() {
 
     <> 
 
-<Carousel variant="dark">
+<Carousel id='home' variant="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -111,7 +111,7 @@ function DarkVariantExample() {
 
 <Row> 
 
-<div style={{ textAlign: "center"}}>
+<div id='about' style={{ textAlign: "center"}}>
       <h1>
         ALLOW US TO INTRODUCE OURSELVES...
       </h1>

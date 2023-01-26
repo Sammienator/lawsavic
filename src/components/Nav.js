@@ -12,16 +12,16 @@ function    Navb () {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             
-            <Nav.Link href="#features">About US</Nav.Link>
-            <Nav.Link href="#deets">Vacants</Nav.Link>
+            <Nav.Link href="#about">About US</Nav.Link>
+            <Nav.Link href="#vacant">Vacants</Nav.Link>
             
             <NavDropdown title="Contact Us" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#contact">Contact Us</NavDropdown.Item>
           
       
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">
-                Separated link
+              <NavDropdown.Item href="#social">
+                Social Media
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
