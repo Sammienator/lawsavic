@@ -1,10 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
-import pic222 from '../assets/pic222.jpg'
+import replace1 from '../assets/replace1.jpg'
 import law from '../assets/law.png'
-import pic10 from '../assets/pic10.jpg'
-import pic6 from '../assets/pic6.jpeg'
-import pic12 from '../assets/pic12.jpg'
-import pic4 from '../assets/pic4.jpg'
+import replace2 from '../assets/replace2.jpg'
+import replace3 from '../assets/replace3.jpg'
+import replace4 from '../assets/replace4.jpg'
+import replace5 from '../assets/replace5.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -21,7 +21,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic222}
+          src={replace1}
           alt="First slide"
           style={{height: "70vh"}}
         />
@@ -45,7 +45,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic10}
+          src={replace2}
           alt="Third slide"
           style={{height: "70vh"}}
         />
@@ -60,7 +60,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic6}
+          src={replace3}
           alt="Third slide"
           style={{height: "70vh"}}
         />
@@ -75,7 +75,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic12}
+          src={replace4}
           alt="Third slide"
           style={{height: "70vh"}}
         />
@@ -90,7 +90,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic4}
+          src={replace5}
           alt="Third slide"
           style={{height: "70vh"}}
         />
