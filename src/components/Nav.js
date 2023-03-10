@@ -5,11 +5,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function    Navb () {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent" >
-      <Container style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }} >
-        <Navbar.Brand href="#home">Lawsavic <br/> Investments </Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" bg="transparent" color='white'>
+      <Container style={{ fontWeight: "bolder" }} >
+        <Navbar.Brand style={{color: "white" , fontSize: "24px", letterSpacing: "3px" }} href="#home">Lawsavic <br/> Investments </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse style={{fontSize: "20px"}} id="responsive-navbar-nav">
           <Nav className="ms-auto">
             
             <Nav.Link href="#about">About US</Nav.Link>

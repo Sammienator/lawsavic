@@ -35,12 +35,12 @@ function BasicExample() {
         <Col className='p-3' >
 <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={pic8} />
-      <Card.Body>
+      <Card.Body >
         <Card.Title> <h2>5 Bedroom Mansionette all Ensuite. </h2></Card.Title>
         <Card.Text>
           Located in the serene suburbs of Kitengela, 37 Kms from the capital city
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}> <p> Asking price: 49,500,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}> <p> Asking price: 49,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -60,7 +60,7 @@ function BasicExample() {
         <Card.Text>
          Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 9,500,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 9,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -80,7 +80,7 @@ function BasicExample() {
         <Card.Text>
          Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 30,000,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 30,000,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -110,7 +110,7 @@ function BasicExample() {
 <Card.Text>
   Located in the serene suburbs of Kitengela, 37 Kms from the capital city
 </Card.Text>
-<Button variant='transparent'  style={{backgroundColor:"aqua"}}> <p> Asking price: 49,500,000/=</p></Button>
+<Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}> <p> Asking price: 49,500,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -130,7 +130,7 @@ function BasicExample() {
 <Card.Text>
  Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
 </Card.Text>
-<Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 9,500,000/=</p></Button>
+<Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 9,500,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -150,7 +150,7 @@ function BasicExample() {
 <Card.Text>
  Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
 </Card.Text>
-<Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 30,000,000/=</p></Button>
+<Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 30,000,000/=</p></Button>
 </Card.Body>
 </Card>
 
@@ -181,7 +181,7 @@ function BasicExample() {
         <Card.Text>
           Located in the serene suburbs of Kitengela, 37 Kms from the capital city
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}> <p> Asking price: 49,500,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}> <p> Asking price: 49,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -201,7 +201,7 @@ function BasicExample() {
         <Card.Text>
          Located in a residential development estate in the urban environs of kileleshwa. Ideal for a working-city home combination
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 9,500,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 9,500,000/=</p></Button>
       </Card.Body>
     </Card>
 
@@ -221,7 +221,7 @@ function BasicExample() {
         <Card.Text>
          Located in the busy environs of Rongai Kajiado County, all 46 units are up for sale.
         </Card.Text>
-        <Button variant='transparent'  style={{backgroundColor:"aqua"}}><p> Asking price: 30,000,000/=</p></Button>
+        <Button variant='transparent'  style={{backgroundColor:"#6BBBFF"}}><p> Asking price: 30,000,000/=</p></Button>
       </Card.Body>
     </Card>
 

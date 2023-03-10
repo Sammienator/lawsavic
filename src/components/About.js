@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import replace1 from '../assets/replace1.jpg'
-import law from '../assets/law.png'
+import room from '../assets/room.jpg'
 import replace2 from '../assets/replace2.jpg'
 import replace3 from '../assets/replace3.jpg'
 import replace4 from '../assets/replace4.jpg'
@@ -33,7 +33,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={law}
+          src={room}
           alt="Second slide"
           style={{height: "70vh"}}
         />
