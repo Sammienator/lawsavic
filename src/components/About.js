@@ -25,9 +25,9 @@ function DarkVariantExample() {
           alt="First slide"
           style={{height: "70vh"}}
         />
-        <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }} >
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>Welcome home! The home of quality!</p>
+        <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder", fontSize: "20px" }} >
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>Welcome home! The home of quality!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,8 +38,8 @@ function DarkVariantExample() {
           style={{height: "70vh"}}
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>Be all you can be, Be Home!</p>
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>Be all you can be, Be Home!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -50,8 +50,8 @@ function DarkVariantExample() {
           style={{height: "70vh"}}
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>
           Home is the starting place of love, hope and dreams!
           </p>
         </Carousel.Caption>
@@ -65,8 +65,8 @@ function DarkVariantExample() {
           style={{height: "70vh"}}
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>
           There is no place like home!
           </p>
         </Carousel.Caption>
@@ -80,8 +80,8 @@ function DarkVariantExample() {
           style={{height: "70vh"}}
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>
             Ensuring you have your dream home, Your Way!
           </p>
         </Carousel.Caption>
@@ -95,8 +95,8 @@ function DarkVariantExample() {
           style={{height: "70vh"}}
         />
         <Carousel.Caption style={{ "textShadow" : "2px 2px white", fontWeight: "bolder" }}>
-          <h5>LAWSAVIC INVESTMENT LIMITED</h5>
-          <p>
+          <h5 style={{  fontWeight: "bolder", fontSize: "30px" }}>LAWSAVIC INVESTMENT LIMITED</h5>
+          <p style={{  fontWeight: "bolder", fontSize: "25px" }}>
             Money cant buy you happiness, let it buy you a Home!
           </p>
         </Carousel.Caption>
