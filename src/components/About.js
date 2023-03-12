@@ -111,8 +111,8 @@ function DarkVariantExample() {
 
 <Row> 
 
-<div id='about' style={{ textAlign: "center"}}>
-      <h1>
+<div id='about' style={{ textAlign: "center",  fontWeight: "bolder"}}>
+      <h1 style={{ fontWeight: "bolder"}}>
         ALLOW US TO INTRODUCE OURSELVES...
       </h1>
       <p > No matter who you are or where you are, instinct tells you to go home! </p>
@@ -125,7 +125,7 @@ function DarkVariantExample() {
 <Row>
 
 <Col className='col'>
-  <h1> Who Are We?</h1>
+  <h1 style={{ fontWeight: "bolder"}}> Who Are We?</h1>
 <p> Lawsavic Investments Limited is a locally recognised, leading and independent, real estate Company, It is also the countys  fastest growing real estate company. We Offer a full spectrum of property services.We also fulfill a wide range of real estate needs, including: property management, agency, valuation, project management as well as General, feasibility and research-led consultancy.  </p>
 
 
@@ -135,7 +135,7 @@ function DarkVariantExample() {
 
 
 <Col className='col'>
-<h1> What Exactly Do We Do?</h1>
+<h1 style={{ fontWeight: "bolder"}}> What Exactly Do We Do?</h1>
 <p> We mostly have partnered with local property managers, agents and landlords in various neighborhoods to ensure vacancies are verified before being listed.Get motivated for your next home search with the assuarance that what is advertised is exactly what is on offer.  </p>
 <p> We help you avoid treacherous deals by confirming and approving all the listings in this website. Our real time listings provide you with properties that are are actually available when you need them. Lawsavic Investments Limited is available anywhere, anytime and on any device.  </p>
 
