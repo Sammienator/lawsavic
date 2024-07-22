@@ -1,0 +1,15 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+
+#logo, nav, h1, h2, h3{
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-size: 40px;
+
+  
+}
