@@ -34,3 +34,12 @@ p, button{
   align-items: center;
   text-decoration: underline;
 }
+form {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-size: 25px;
+}h5 {
+  font-family: "Redressed", cursive;
+  font-weight: 700;
+  font-size: 20px;
+}
