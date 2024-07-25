@@ -11,7 +11,7 @@ AOS.init();
 const blogPosts = [
   {
     id: 1,
-    title: 'The Ultimate Guide to Buying Your First Home',
+    title: ' Ultimate Guide to Your First Home',
     excerpt: 'Buying your first home is an exciting milestone. Learn the essential steps and tips to make the process smoother.',
     image: blog1,
     link: '#'
@@ -25,7 +25,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    title: 'How to Find the Best Real Estate Agent',
+    title: 'Finding the Best Real Estate Agent',
     excerpt: 'Finding the right real estate agent is crucial. Here are some tips on how to choose the best agent for your needs.',
     image: blog3,
     link: '#'
@@ -43,9 +43,9 @@ const BlogSection = () => {
             <div key={post.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{post.title}</h3>
-                <p className="text-gray-700 mb-4">{post.excerpt}</p>
-                <a href={post.link} className="text-blue-500 hover:text-blue-700">Read More</a>
+                <h5 id='blogg' className="text-2xl font-bold mb-2">{post.title}</h5>
+                <p  className="text-gray-700 mb-4">{post.excerpt}</p>
+                <a href={post.link} className="text-black hover:text-[aqua]">Read More</a>
               </div>
             </div>
           ))}

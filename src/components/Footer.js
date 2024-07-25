@@ -76,7 +76,10 @@ const Footer = () => {
       </div>
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
         <p>&copy; 2024 Real Estate Company. All rights reserved.</p>
-        <p>Privacy Policy | Terms & Conditions</p>
+        <p>
+          <a href="#privacy" className="hover:text-blue-500">Privacy Policy</a> | 
+          <a href="#terms" className="hover:text-blue-500"> Terms & Conditions</a>
+        </p>
       </div>
     </footer>
   );
