@@ -8,6 +8,12 @@ const houseData = [
   { id: 1, title: 'Modern Family Home', img: house1, price: 500000, beds: 3, baths: 2, garages: 1 },
   { id: 2, title: 'Luxury Villa', img: house2, price: 1200000, beds: 5, baths: 4, garages: 2 },
   { id: 3, title: 'Cozy Cottage', img: house1, price: 300000, beds: 2, baths: 1, garages: 1 },
+
+  {id: 4, title: 'Modern  Home', img: house1, price: 1000000, beds: 6, baths: 4, garages: 2 },
+  { id: 5, title: 'Luxury ', img: house2, price: 2400000, beds: 10, baths: 8, garages: 4 },
+  { id: 6, title: 'Cozy ', img: house1, price: 600000, beds: 4, baths: 2, garages: 2 },
+
+
   // Add more house objects with unique ids...
 ];
 
