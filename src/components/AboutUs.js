@@ -29,7 +29,7 @@ const AboutUs = () => {
 
             </p>
 
-            <p className='text-center' >With a decade of expertise in lands, property management, and consultancy, we are dedicated to offering tailored solutions for everyone. <br/> For us, real estate is more than a transaction—it's a journey. We are committed to guiding you every step of the way, ensuring your home meets your unique needs and aspirations!"</p>
+            <p className='text-center' > " With a decade of expertise in lands, property management, and consultancy, we are dedicated to offering tailored solutions for everyone. <br/> For us, real estate is more than a transaction—it's a journey."</p>
           </div>
           <div className="w-full md:w-1/2 p-6 ">
             <img
@@ -53,7 +53,7 @@ const AboutUs = () => {
             <FaEye className="text-4xl text-black mx-auto md:mx-0 mb-4" />
             <h2 className="text-6xl text-center font-bold mb-4">Our Vision</h2>
             <p className=" text-center mb-4">
-            Our vision at is to be the trusted partner in real estate, known for our commitment to transparency, fostering growth, and nurturing a sense of family. We aspire to create communities where extended families, starting-up couples, and singles can find their perfect home. By continuously innovating and upholding our core values, we aim to make every client’s journey towards homeownership a seamless and rewarding experience."
+            " Our vision at is to be the trusted partner in real estate, known for our commitment to transparency, fostering growth, and nurturing a sense of family. We aspire to create communities where extended families, starting-up couples, and singles can find their perfect home."
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const AboutUs = () => {
                 alt="Team Member 1"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className=" font-semibold">Wangari Maathai</h3>
+              <h4 className=" font-semibold">Wangari Maathai</h4>
               <p className="text-gray-600">Sales and Marketing</p>
               <blockquote className="mt-4 italic">"Our mission is to innovate and inspire."</blockquote>
             </div>
@@ -79,7 +79,7 @@ const AboutUs = () => {
                 alt="Team Member 2"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className=" font-semibold">Dedan Kimathi</h3>
+              <h4 className=" font-semibold">Dedan Kimathi</h4>
               <p className="text-gray-600">Operations & Administration</p>
               <blockquote className="mt-4 italic">"Our mission is to innovate and inspire."</blockquote>
             </div>
@@ -91,7 +91,7 @@ const AboutUs = () => {
                 alt="Team Member 3"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className=" font-semibold">Mekatilili wa Menza</h3>
+              <h4 className=" font-semibold">Mekatilili wa Menza</h4>
               <p className="text-gray-600">Manager</p>
               <blockquote className="mt-4 italic">"Our mission is to innovate and inspire."</blockquote>
             </div>
@@ -104,7 +104,7 @@ const AboutUs = () => {
                 alt="Team Member 4"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className=" font-semibold">Tom Mboya</h3>
+              <h4 className=" font-semibold">Tom Mboya</h4>
               <p className="text-gray-600">Managing Director</p>
               <blockquote className="mt-4 italic">"We strive for excellence in all we do."</blockquote>
             </div>

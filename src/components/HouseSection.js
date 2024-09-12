@@ -50,7 +50,7 @@ const HouseSection = () => {
           <button onClick={() => setSearch({ price: '', beds: '' })} className="bg-black text-white m-4 rounded">Clear Filters</button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {filteredHouses.map(house => (
             <div key={house.id} className="bg-white rounded-lg overflow-hidden shadow-lg" data-aos="fade-up">
               <img src={house.img} alt={house.title} className="w-full h-56 object-cover" />
