@@ -30,7 +30,7 @@ const HouseSection = () => {
   return (
     <div id="houses" className="py-12 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-bold mb-8 text-center">Newest Deals</h2>
+        <h2 className="text-7xl font-extrabold text-center mb-8 ">Newest Deals</h2>
 
         <div className="mb-8 text-center">
           <input
@@ -56,9 +56,9 @@ const HouseSection = () => {
               <img src={house.img} alt={house.title} className="w-full h-56 object-cover" />
               <div className="p-4">
                 <p className="text-2xl font-bold">{house.title}</p>
-                <p className="text-gray-600">${house.price.toLocaleString()}</p>
+                <p className="text-gray-600">Kshs {house.price.toLocaleString()}</p>
                 <p className="text-gray-500">House {house.id}</p>
-                <div className="flex items-center space-x-2 mt-2">
+                <div className="flex items-center space-x-2 font-extrabold mt-2">
                   <FaBed /><span>{house.beds} Beds</span>
                   <FaBath /><span>{house.baths} Baths</span>
                   <FaCar /><span>{house.garages} Garage</span>

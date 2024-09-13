@@ -22,6 +22,7 @@ const NavBar = () => {
           <a href="#blog" className="text-white">Blog</a>
           <a href="#contact" className="text-white">Contact</a>
         </div>
+        
         <div className="md:hidden text-white cursor-pointer" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>

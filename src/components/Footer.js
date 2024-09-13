@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, Fa
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-200 py-12">
+    <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Company Information */}
         <div>
@@ -55,7 +55,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              className="w-full bg-white text-black px-4 py-2 rounded hover:bg-blue-600"
             >
               Subscribe
             </button>

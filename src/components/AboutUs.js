@@ -31,11 +31,11 @@ const AboutUs = () => {
 
             <p className='text-center' > " With a decade of expertise in lands, property management, and consultancy, we are dedicated to offering tailored solutions for everyone. <br/> For us, real estate is more than a transaction—it's a journey."</p>
           </div>
-          <div className="w-full md:w-1/2 p-6 ">
+          <div className="w-full md:w-1/2 p-8 ">
             <img
               src={mission}
               alt="Our Mission"
-              className="w-full h-auto rounded-lg shadow-2xl"
+              className="w-3/4 h-auto rounded-lg shadow-2xl"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const AboutUs = () => {
             <img
               src={vision}
               alt="Our Vision"
-              className="w-full h-auto rounded-lg shadow-2xl"
+              className="w-3/4 h-auto rounded-lg shadow-2xl"
             />
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left p-6 order-1 md:order-2">
@@ -66,7 +66,7 @@ const AboutUs = () => {
               <img
                 src={woman}
                 alt="Team Member 1"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4"
               />
               <h4 className=" font-semibold">Wangari Maathai</h4>
               <p className="text-gray-600">Sales and Marketing</p>
@@ -77,7 +77,7 @@ const AboutUs = () => {
               <img
                 src={man}
                 alt="Team Member 2"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4"
               />
               <h4 className=" font-semibold">Dedan Kimathi</h4>
               <p className="text-gray-600">Operations & Administration</p>
@@ -89,7 +89,7 @@ const AboutUs = () => {
               <img
                 src={woman}
                 alt="Team Member 3"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4"
               />
               <h4 className=" font-semibold">Mekatilili wa Menza</h4>
               <p className="text-gray-600">Manager</p>
@@ -102,7 +102,7 @@ const AboutUs = () => {
               <img
                 src={man}
                 alt="Team Member 4"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4"
               />
               <h4 className=" font-semibold">Tom Mboya</h4>
               <p className="text-gray-600">Managing Director</p>
