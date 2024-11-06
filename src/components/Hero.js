@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 w-full transition-transform duration-300 ${isAtTop ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="bg-white shadow-md p-4"> {/* Navbar content */}
-        <h1>My Navbar</h1>
+        
       </div>
     </nav>
   );
