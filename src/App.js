@@ -7,12 +7,13 @@ import  BlogSection from '../src/components/BlogSection';
 import Footer from '../src/components/Footer';
 import ContactSection from './components/ContactSection';
 
+
 import Aos from 'aos';
 
 import './App.css';
 import AboutUs from './components/AboutUs';
 import Stats from './components/Stats';
-
+import Two  from './components/Two';
 
 // this is so cool
 
@@ -28,6 +29,7 @@ function App() {
         <NavBar />
         <Hero/>
         <AboutUs/>
+        <Two/>
         <Stats/>
         <HouseSection/>
         <NewsletterSection />

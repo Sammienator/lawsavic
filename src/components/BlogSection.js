@@ -45,7 +45,7 @@ const BlogSection = () => {
               <div className="p-6">
                 <h5 id='blogg' className="text-2xl font-bold mb-2">{post.title}</h5>
                 <p  className="text-gray-700 mb-4">{post.excerpt}</p>
-                <a href={post.link} className="text-black hover:text-[aqua]">Read More</a>
+                <a href={post.link} className="text-black hover:text-[aqua]">Uploading soon!</a>
               </div>
             </div>
           ))}
